@@ -1,0 +1,19 @@
+.vision {
+  border-top: 3px solid #f4f4f4;
+  border-bottom: 3px solid #f4f4f4;
+}
+
+
+@media screen and (max-width: 1170px) {
+  .vision .col-6 {
+    width: 100%;
+  }
+
+  .vision .col-4 {
+    width: 100%;
+  }
+
+  .vision .col-8 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.strategy {
+  background-color: #F4F5F6;
+}
+
+@media screen and (max-width: 1680px) {
+  .strategy .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

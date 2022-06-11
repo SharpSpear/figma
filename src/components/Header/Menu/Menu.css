@@ -1,0 +1,23 @@
+.menu {
+  padding: 16px 25px;
+  border-left: 3px solid #F4F4F4;
+}
+
+.menu a {
+  font-size: 23px;
+  line-height: 28px;
+  color: #8A8C8E;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #000000;
+}
+
+@media screen and (max-width: 1680px) {
+  .menu {
+    display: none;
+  }
+}

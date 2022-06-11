@@ -1,0 +1,36 @@
+.header {
+  height: 140px;
+  background-color: #FCFCFC;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #F4F4F4;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  padding: 0 100px;
+}
+
+.logo-title {
+  font-size: 37px;
+  line-height: 45px;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 55px;
+}
+
+.tool {
+  display: flex;
+  position: absolute;
+  right: 100px;
+}
+
+.tool * {
+  padding: 16px 30px;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.whitepaper {
+  color: #000000;
+  margin-right: 30px;
+}

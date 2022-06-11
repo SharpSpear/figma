@@ -1,0 +1,53 @@
+.compound {
+  background-color: #F4F5F6;
+}
+
+.compound .container {
+
+  position: relative;
+}
+
+.compound .compound-text {
+  font-size: 27px;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+
+.compound .subtitle div {
+  padding-bottom: 10px;
+}
+
+.btn-group {
+  margin-top: 50px;
+}
+
+.btn-group .btn {
+  margin-right: 20px;
+}
+
+.image-field {
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1680px) {
+  .image-field {
+    right: 60px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .image-field {
+    position: relative;
+    transform: none;
+    width: 60%;
+  }
+
+  .image {
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.network-field {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.text-field {
+  padding-bottom: 5px;
+}
+
+.metamask .dashline {
+  border-top: 0.5px dashed #B1B5C3;
+  width: calc( 25% - 40px);
+  height: 0;
+  transform: translate(-50%, 33px) scale(4) ;
+}
